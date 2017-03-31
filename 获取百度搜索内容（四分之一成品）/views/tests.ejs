@@ -1,0 +1,6 @@
+<% result.length %>	
+<% for(var prop in result){ %>
+<% 	if(result.hasOwnProperty(prop)){%>
+   <%= prop+":    "%>   <%=result[prop]%> </br>
+<% 	}%>
+<% }%>
